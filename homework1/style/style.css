@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.container{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.content_logo , .content_main-header{
+    font-family: 'Crete Round', serif;
+}
+.content_logo__title{
+    font-size: 34px;
+}
+.content_main-header{
+    font-size: 58px;
+    max-width: 486px;
+    margin-top: 90px;
+    line-height: 64px;
+}
+.content_text{
+    max-width: 418px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.03em;
+    margin-top: 50px;
+    line-height:30px;
+}
+.content_btn{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+ button{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;      
+}
+.content_btn-start{
+    border: none;
+    background: #233fe2;
+    color: white;
+    border-radius: 23px;
+    width: 152px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+.content_btn-create {
+    width: 165px;
+    border-color: #ffc8c9;
+    border-style: solid;
+    border-radius: 23px;
+    background: white;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}

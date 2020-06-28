@@ -1,0 +1,117 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+.container{
+    width: 1270px;
+    margin: 0 auto;  
+}
+/*font-family: 'Crete Round', serif;
+font-family: 'Lato', sans-serif;*/
+
+.header__inner{
+  margin-top: 55px;
+    
+}
+.header__main{
+    font-size: 34px;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    color: #060c31;
+    float: left;
+}
+.header__menu{
+    float: right;
+    display: flex;
+    align-items: center;  
+}
+.header{
+    margin-bottom: 60px;
+}
+.header__menu__link {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #060c31;
+    text-decoration: none;
+    margin-right: 42px;
+}
+.header__menu__btn{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #060c31;
+    background-color: #fff;
+    border: 2px solid #ffb0b1;
+    border-radius: 23px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+
+.intro__content{
+    float: left;
+    width: 450px;
+    margin-top: 100px;
+}
+.intro__content__title{
+    font-size: 58px;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    width: 450px;
+    line-height: 1.1;
+    color: #060c31;
+}
+.intro__content__text{
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+    width: 380px;
+}
+.start__btn{
+    background-color: #233fe2;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 25px;
+    padding: 15px 40px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.intro__content__btn{
+    margin-top: 80px;
+}
+.create__btn{
+    color: #060c31;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border:2px solid #ffb0b1 ;
+    background: #fff;
+    cursor: pointer;
+}
+.intro__inner__photo{
+    float: right;
+}
+.advert{
+    float: right;
+    margin-bottom: 30px;
+}
+.advert__flex{
+    display: flex;
+    align-items: center;
+}
+.advert__flex__img{
+    margin-left: 110px;
+}
